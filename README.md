@@ -10,7 +10,8 @@ The following is implemented in this project:
 - MVVM
 - asynchronous work with Rest-API 
 - work with map
-- working with SQLight via GRDB
+- working with SQLight via GRDB https://github.com/groue/GRDB.swift
+- working with DI via Swinjet https://github.com/Swinject/Swinject
 
 ## Requirements
 
