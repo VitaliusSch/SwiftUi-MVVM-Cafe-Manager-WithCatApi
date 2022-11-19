@@ -5,7 +5,7 @@
 [![Xcode](https://img.shields.io/badge/Xcode-12.0-blue.svg)](https://developer.apple.com/xcode)
 [![MIT](https://img.shields.io/badge/licenses-MIT-red.svg)](https://opensource.org/licenses/MIT)
 
-Cat Cafe Manager is a training project for learning SwiftUi.
+Cat Cafe Manager is a training game project for learning SwiftUi.
 The following is implemented in this project:
 - MVVM
 - asynchronous work with Rest-API 
