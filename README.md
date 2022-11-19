@@ -11,7 +11,7 @@ The following is implemented in this project:
 - asynchronous work with Rest-API 
 - work with map
 - working with SQLight via GRDB https://github.com/groue/GRDB.swift
-- working with DI via Swinjet https://github.com/Swinject/Swinject
+- working with DI via Swinjcet https://github.com/Swinject/Swinject
 
 ## Requirements
 
@@ -20,7 +20,6 @@ The following is implemented in this project:
 
 ## About
 
-* 
 * The code involved in the above example is in this repository code. It is recommended to download and run the view.
 * If you have better usage and suggestions about SwiftUI, look forward to sharing it!
 * If there are omissions and errors in the examples in this article,  please create a [**Issue**](https://github.com/VitaliusSch/SwiftUi-MVVM-Cafe-Manager-WithCatApi/issues/new) !
