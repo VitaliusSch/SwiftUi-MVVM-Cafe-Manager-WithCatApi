@@ -1,16 +1,16 @@
 # Cat Cafe Manager on SwiftUI MVVM
 
+[![Build Status](https://img.shields.io/badge/platforms-iOS-green.svg)](https://github.com/VitaliusSch/SwiftUi-MVVM-Cafe-Manager-WithCatApi)
+[![Swift](https://img.shields.io/badge/Swift-5.1-orange.svg)](https://swift.org)
+[![Xcode](https://img.shields.io/badge/Xcode-12.0-blue.svg)](https://developer.apple.com/xcode)
+[![MIT](https://img.shields.io/badge/licenses-MIT-red.svg)](https://opensource.org/licenses/MIT)
+
 Cat Cafe Manager is a training project for learning SwiftUi.
 The following is implemented in this project:
 - MVVM
 - asynchronous work with Rest-API 
 - work with map
 - working with SQLight via GRDB
-
-[![Build Status](https://img.shields.io/badge/platforms-iOS-green.svg)](https://github.com/VitaliusSch/SwiftUi-MVVM-Cafe-Manager-WithCatApi)
-[![Swift](https://img.shields.io/badge/Swift-5.1-orange.svg)](https://swift.org)
-[![Xcode](https://img.shields.io/badge/Xcode-12.0-blue.svg)](https://developer.apple.com/xcode)
-[![MIT](https://img.shields.io/badge/licenses-MIT-red.svg)](https://opensource.org/licenses/MIT)
 
 ## Requirements
 
