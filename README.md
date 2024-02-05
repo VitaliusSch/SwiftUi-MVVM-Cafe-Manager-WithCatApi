@@ -28,3 +28,4 @@ The following is implemented in this project:
 ## License	
 
 SwiftUI is released under the [MIT license](LICENSE). See LICENSE for details.
+
