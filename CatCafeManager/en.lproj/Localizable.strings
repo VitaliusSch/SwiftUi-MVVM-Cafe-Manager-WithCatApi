@@ -1,0 +1,45 @@
+/* 
+  Localizable.strings
+  CatCafeManger
+
+  Created by VitaliusSch on 29.11.2022.
+ 
+  How to add a new localization:
+     Let's create a Localizable.strings file in the root folder.
+     File ▸ New ▸ File, search for .strings extension and name it 'Localizable'.
+     After clicking on a new Localizable.strings file you should see 'Localize...' button on the right side.
+     Press 'Localize...' and your base localization will be created! In this case English.
+     Source: https://www.translized.com/blog/swiftui-localization-ios
+
+ 
+*/
+
+"CurrentLocation" = "Current location";
+"StartNewCafe" = "Start new cafe";
+"EnterNewCafeTitle" = "Enter new cafe title";
+"CafeTitle" = "Cafe title";
+
+"Loading" = "Loading ...";
+
+"TypeToSearch" = "Search cafe";
+"TypeAnything" = "Write something";
+"TakePhoto" = "Take photo";
+
+"CafeInfo" = "Cafe";
+"Done" = "Done";
+"Cancel" = "Cancel";
+"CafeWrongName" = "Enter the name of the cafe up to 15 characters!";
+"Coordinates" = "Coordinates";
+"Latitude" = "Latitude";
+"Longitude" = "Longitude";
+
+"TapOnMapToNewCafe" = "Tap on map to create a new cafe";
+
+"CatAddNew" = "Adopt a new cat";
+
+"NotEnoughtMoney" = "You haven't enough money!";
+"SelectACat" = "Choose a cat";
+"Name" = "Name";
+"Cost" = "Cost";
+"YourMoney" = "Your money: %@";
+"ThisCatAdopted" = "This cat has already been adopted!/n Try to adopt another one.";

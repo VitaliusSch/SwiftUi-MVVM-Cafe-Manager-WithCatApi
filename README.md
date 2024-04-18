@@ -8,10 +8,11 @@
 Cat Cafe Manager is a training game project for learning SwiftUi.
 The following is implemented in this project:
 - MVVM
-- asynchronous work with Rest-API 
-- work with map
-- working with SQLight via GRDB https://github.com/groue/GRDB.swift
-- working with DI via Swinjcet https://github.com/Swinject/Swinject
+- Asynchronous work with a Rest-API 
+- Actors
+- MapKit
+- SQLight with GRDB https://github.com/groue/GRDB.swift
+- DI with Swinjcet https://github.com/Swinject/Swinject
 
 ## Requirements
 
@@ -29,3 +30,8 @@ The following is implemented in this project:
 
 SwiftUI is released under the [MIT license](LICENSE). See LICENSE for details.
 
+## Links
+
+https://github.com/groue/GRDB.swift   
+https://github.com/Swinject/Swinject
+https://matteomanferdini.com/swiftui/

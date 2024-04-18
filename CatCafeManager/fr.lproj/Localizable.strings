@@ -1,0 +1,37 @@
+/* 
+  Localizable.strings
+  CatCafeManger
+
+  Created by VitaliusSch on 29.11.2022.
+  
+*/
+
+"CurrentLocation" = "Localisation actuelle";
+"StartNewCafe" = "Créer un nouveau café";
+"EnterNewCafeTitle" = "Enter new cafe title";
+"CafeTitle" = "Cafe title";
+
+"Loading" = "Chargement ...";
+
+"TypeToSearch" = "Rechercher un café";
+"TypeAnything" = "Écris quelque chose";
+"TakePhoto" = "Prendre une photo";
+
+"CafeInfo" = "Café";
+"Done" = "Confirmer";
+"Cancel" = "Annuler";
+"CafeWrongName" = "Entrez le nom du café jusqu'à 15 caractères !";
+"Coordinates" = "Coordonnées";
+"Latitude" = "Latitude";
+"Longitude" = "Longitude";
+
+"TapOnMapToNewCafe" = "Cliquez sur la carte pour créer un nouveau café";
+
+"CatAddNew" = "Adopter un chat";
+
+"NotEnoughtMoney" = "Vous n'avez pas assez d'argent !";
+"SelectACat" = "Choisissez un chat";
+"Name" = "Name";
+"Cost" = "Prix";
+"YourMoney" = "Votre argent: %@";
+"ThisCatAdopted" = "Ce chat a déjà été adopté !/n Essayez d'en adopter un autre.";

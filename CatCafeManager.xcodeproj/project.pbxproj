@@ -1,0 +1,1308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0406183C2BBA9433009F3610 /* CatCafeViewModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406183B2BBA9433009F3610 /* CatCafeViewModelsTests.swift */; };
+		040618482BC3A834009F3610 /* NavigationControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040618472BC3A834009F3610 /* NavigationControllerProtocol.swift */; };
+		0406184B2BC3C40A009F3610 /* BarcodeScanerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406184A2BC3C40A009F3610 /* BarcodeScanerView.swift */; };
+		0406184E2BC3C8BE009F3610 /* MlModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406184D2BC3C8BE009F3610 /* MlModelView.swift */; };
+		0406185B2BC3F2C3009F3610 /* MockCatRepositopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406185A2BC3F2C3009F3610 /* MockCatRepositopy.swift */; };
+		0406185D2BC3F34F009F3610 /* MockNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406185C2BC3F34F009F3610 /* MockNavigationController.swift */; };
+		0406186C2BCE2716009F3610 /* MockCafeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406186B2BCE2716009F3610 /* MockCafeRepository.swift */; };
+		041E010A2B2FF1F500BC7A21 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E01092B2FF1F500BC7A21 /* CustomNavigationController.swift */; };
+		041E010C2B2FF51900BC7A21 /* ContinuationHolderClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E010B2B2FF51900BC7A21 /* ContinuationHolderClass.swift */; };
+		041E010F2B302CD400BC7A21 /* ImageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E010E2B302CD400BC7A21 /* ImageRepository.swift */; };
+		041E01232B314BC500BC7A21 /* ImageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E01222B314BC500BC7A21 /* ImageProtocol.swift */; };
+		041E01252B33FB9C00BC7A21 /* Swift59Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E01242B33FB9C00BC7A21 /* Swift59Tests.swift */; };
+		041E01542B4D29E900BC7A21 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E01532B4D29E900BC7A21 /* View.swift */; };
+		042266F22AFB460300BBDDF8 /* LogFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042266F12AFB460300BBDDF8 /* LogFileManager.swift */; };
+		042266F42AFB4F1500BBDDF8 /* CLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042266F32AFB4F1500BBDDF8 /* CLogger.swift */; };
+		042266F62AFB52DD00BBDDF8 /* LogEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042266F52AFB52DD00BBDDF8 /* LogEntity.swift */; };
+		042266F82AFB582300BBDDF8 /* EnumLogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042266F72AFB582300BBDDF8 /* EnumLogLevel.swift */; };
+		042267002B01E7FC00BBDDF8 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 042266FF2B01E7FC00BBDDF8 /* .swiftlint.yml */; };
+		0427B568296D26A700544586 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427B567296D26A700544586 /* CameraView.swift */; };
+		0427B56C296D3C4D00544586 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427B56B296D3C4D00544586 /* CameraViewModel.swift */; };
+		0427B570296EB6F700544586 /* SQLiteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427B56F296EB6F700544586 /* SQLiteRepository.swift */; };
+		0427B572296ED23700544586 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427B571296ED23700544586 /* AppConstants.swift */; };
+		0427B57C2976570400544586 /* AppRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427B57B2976570400544586 /* AppRoutes.swift */; };
+		043F686E29306DD8002DB1AD /* CatCafeManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F686D29306DD8002DB1AD /* CatCafeManagerApp.swift */; };
+		043F687029306DD8002DB1AD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F686F29306DD8002DB1AD /* MainView.swift */; };
+		043F687229306DD9002DB1AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043F687129306DD9002DB1AD /* Assets.xcassets */; };
+		043F687529306DD9002DB1AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043F687429306DD9002DB1AD /* Preview Assets.xcassets */; };
+		043F687F29306DD9002DB1AD /* CatCafeServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F687E29306DD9002DB1AD /* CatCafeServicesTests.swift */; };
+		043F68A7293072F9002DB1AD /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = 043F68A6293072F9002DB1AD /* GRDB */; };
+		043F68AA293075E0002DB1AD /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 043F68A9293075E0002DB1AD /* Swinject */; };
+		043F68AC29308D95002DB1AD /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F68AB29308D95002DB1AD /* LocationManager.swift */; };
+		043F68B02930B10D002DB1AD /* AppFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F68AF2930B10D002DB1AD /* AppFactory.swift */; };
+		043F68B22935BCE2002DB1AD /* BasicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F68B12935BCE2002DB1AD /* BasicModel.swift */; };
+		043F68B42935BD0F002DB1AD /* CatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F68B32935BD0F002DB1AD /* CatModel.swift */; };
+		043F68B62935BD8E002DB1AD /* CafeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F68B52935BD8E002DB1AD /* CafeModel.swift */; };
+		043F68B92935CEFA002DB1AD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 043F68BB2935CEFA002DB1AD /* Localizable.strings */; };
+		043F68C229385A63002DB1AD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F68C129385A63002DB1AD /* MapView.swift */; };
+		043F68C429385BC5002DB1AD /* CafeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F68C329385BC5002DB1AD /* CafeViewModel.swift */; };
+		043F68C629385F81002DB1AD /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F68C529385F81002DB1AD /* GridView.swift */; };
+		043F68C8293EEC51002DB1AD /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F68C7293EEC51002DB1AD /* Repository.swift */; };
+		043F68CF293EF848002DB1AD /* MapPlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F68CE293EF848002DB1AD /* MapPlaceModel.swift */; };
+		043F68E42940430E002DB1AD /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F68E32940430E002DB1AD /* Color.swift */; };
+		043F68E629404E1B002DB1AD /* CustomMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F68E529404E1B002DB1AD /* CustomMapView.swift */; };
+		044165CA2B69123E000D58BC /* CatListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044165C92B69123E000D58BC /* CatListViewModel.swift */; };
+		044165D52B6A2920000D58BC /* CatAdoptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044165D42B6A2920000D58BC /* CatAdoptView.swift */; };
+		044165DD2B6D02DE000D58BC /* CatAdoptViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044165DC2B6D02DE000D58BC /* CatAdoptViewModel.swift */; };
+		044165DF2B7093C3000D58BC /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044165DE2B7093C3000D58BC /* AlertView.swift */; };
+		044165E32B71DED9000D58BC /* MoneyHolderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044165E22B71DED9000D58BC /* MoneyHolderViewModel.swift */; };
+		044166072B79E09D000D58BC /* BoxWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044166062B79E09D000D58BC /* BoxWrapper.swift */; };
+		0450DDC32B8E0E7000652032 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450DDC22B8E0E7000652032 /* String.swift */; };
+		0450DDD02B8F0D9200652032 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450DDCF2B8F0D9200652032 /* TopView.swift */; };
+		0450DDD22B8F150200652032 /* HalfCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450DDD12B8F150200652032 /* HalfCircleView.swift */; };
+		0450DDF62BA05B8E00652032 /* CatCafeRepositoriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450DDF52BA05B8E00652032 /* CatCafeRepositoriesTests.swift */; };
+		0450DDF82BA1796F00652032 /* CafeLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450DDF72BA1796F00652032 /* CafeLocationView.swift */; };
+		049314042A2F145800A56283 /* CatCafeNimbleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049314032A2F145800A56283 /* CatCafeNimbleTest.swift */; };
+		049314142A2F4AB600A56283 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 049314132A2F4AB600A56283 /* Quick */; };
+		049314162A2F4AD000A56283 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 049314152A2F4AD000A56283 /* Nimble */; };
+		04995B4029AC6DFA00AA15F9 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04995B3F29AC6DFA00AA15F9 /* Bundle.swift */; };
+		04995B4229AC704300AA15F9 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04995B4129AC704300AA15F9 /* TextFieldView.swift */; };
+		04995B4629B0832D00AA15F9 /* NetworkingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04995B4529B0832D00AA15F9 /* NetworkingProtocol.swift */; };
+		04995B5029B0C50800AA15F9 /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = 04995B4F29B0C50800AA15F9 /* GRDB */; };
+		04995B5229B0C50C00AA15F9 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 04995B5129B0C50C00AA15F9 /* Swinject */; };
+		04995B5529B0CCB600AA15F9 /* MockCatsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04995B5429B0CCB600AA15F9 /* MockCatsApi.swift */; };
+		04995B5729B0CE9E00AA15F9 /* MockBreedsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04995B5629B0CE9E00AA15F9 /* MockBreedsApi.swift */; };
+		04BB391A29B98A8E006564FE /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BB391929B98A8E006564FE /* GalleryView.swift */; };
+		04BB391C29B991C3006564FE /* CatRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BB391B29B991C3006564FE /* CatRepository.swift */; };
+		04BB391E29B9AE2C006564FE /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BB391D29B9AE2C006564FE /* Page.swift */; };
+		04BB393E29CC5AA8006564FE /* CatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BB393D29CC5AA8006564FE /* CatListView.swift */; };
+		04BB394029CC7C27006564FE /* CatListCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BB393F29CC7C27006564FE /* CatListCardView.swift */; };
+		04C9E0CD2AA85D7C00D2F6FE /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9E0CC2AA85D7C00D2F6FE /* Date.swift */; };
+		04C9E0D12AA9E8ED00D2F6FE /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9E0D02AA9E8ED00D2F6FE /* Enum.swift */; };
+		04C9E0D32AA9F26100D2F6FE /* CollapsedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9E0D22AA9F26100D2F6FE /* CollapsedTextView.swift */; };
+		04C9E0D52AA9F6DC00D2F6FE /* CustomTextEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9E0D42AA9F6DC00D2F6FE /* CustomTextEditView.swift */; };
+		04C9E0E32AAB4AD900D2F6FE /* CustomTextEditPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9E0E22AAB4AD900D2F6FE /* CustomTextEditPlaceholder.swift */; };
+		04C9E0E52AAB4D7800D2F6FE /* CustomTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9E0E42AAB4D7800D2F6FE /* CustomTextEditor.swift */; };
+		04C9E0E82AAEE35C00D2F6FE /* ArrayWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9E0E72AAEE35C00D2F6FE /* ArrayWrapper.swift */; };
+		04C9E0EB2AAEF74A00D2F6FE /* ArrayCoverWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9E0EA2AAEF74A00D2F6FE /* ArrayCoverWrapper.swift */; };
+		04D24B482946DA4A00CEC308 /* CafeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D24B472946DA4A00CEC308 /* CafeCardView.swift */; };
+		04D24B4A2946DCEC00CEC308 /* CafeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D24B492946DCEC00CEC308 /* CafeRepository.swift */; };
+		04DE96972AC1664800FBB263 /* CustomHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DE96962AC1664800FBB263 /* CustomHostingController.swift */; };
+		04DE96992AC556F000FBB263 /* CustomControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DE96982AC556F000FBB263 /* CustomControllerRepresentable.swift */; };
+		04E6BEA62A41863500764C6F /* CafeCardHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6BEA52A41863500764C6F /* CafeCardHeaderView.swift */; };
+		04E6BEA82A4186C900764C6F /* CafeCardInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6BEA72A4186C900764C6F /* CafeCardInfoView.swift */; };
+		04E6BEB02A41C6B700764C6F /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6BEAF2A41C6B700764C6F /* Service.swift */; };
+		04E6BEB22A41C74F00764C6F /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6BEB12A41C74F00764C6F /* RequestBuilder.swift */; };
+		04E6BEB42A41D5CE00764C6F /* RequestDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6BEB32A41D5CE00764C6F /* RequestDispatcher.swift */; };
+		04E6BEB62A494C3800764C6F /* MapKitSearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6BEB52A494C3800764C6F /* MapKitSearcher.swift */; };
+		04E6BEB82A49535A00764C6F /* MapKitSearcherTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6BEB72A49535A00764C6F /* MapKitSearcherTest.swift */; };
+		04F2799729E3D0710020AF33 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F2799629E3D0710020AF33 /* NetworkMonitor.swift */; };
+		04F5B76C29556F3300296DB8 /* CafeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5B76B29556F3300296DB8 /* CafeListView.swift */; };
+		04F5B76F2955A2F400296DB8 /* CafeListCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5B76E2955A2F400296DB8 /* CafeListCardView.swift */; };
+		04F5B771295947B400296DB8 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5B770295947B400296DB8 /* Stack.swift */; };
+		04F5B77429595B8F00296DB8 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5B77329595B8F00296DB8 /* Image.swift */; };
+		04F5B77729595BF300296DB8 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5B77629595BF300296DB8 /* ImageView.swift */; };
+		04F5B77A29595E2D00296DB8 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5B77929595E2D00296DB8 /* FileManager.swift */; };
+		04F5B77C29595F7C00296DB8 /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5B77B29595F7C00296DB8 /* Url.swift */; };
+		04F5B77E2959603A00296DB8 /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5B77D2959603A00296DB8 /* URLRequest.swift */; };
+		04F5B7802959606000296DB8 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5B77F2959606000296DB8 /* Data.swift */; };
+		04F5B7822959634700296DB8 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5B7812959634700296DB8 /* MainViewModel.swift */; };
+		04F5B7842959641F00296DB8 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5B7832959641F00296DB8 /* LoadingView.swift */; };
+		04F5B786295964C500296DB8 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5B785295964C500296DB8 /* Font.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04995B4C29B0C27800AA15F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043F686229306DD8002DB1AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043F686929306DD8002DB1AD;
+			remoteInfo = CatCafeManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0406183B2BBA9433009F3610 /* CatCafeViewModelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCafeViewModelsTests.swift; sourceTree = "<group>"; };
+		040618472BC3A834009F3610 /* NavigationControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerProtocol.swift; sourceTree = "<group>"; };
+		0406184A2BC3C40A009F3610 /* BarcodeScanerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScanerView.swift; sourceTree = "<group>"; };
+		0406184D2BC3C8BE009F3610 /* MlModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MlModelView.swift; sourceTree = "<group>"; };
+		0406185A2BC3F2C3009F3610 /* MockCatRepositopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCatRepositopy.swift; sourceTree = "<group>"; };
+		0406185C2BC3F34F009F3610 /* MockNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNavigationController.swift; sourceTree = "<group>"; };
+		0406186B2BCE2716009F3610 /* MockCafeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCafeRepository.swift; sourceTree = "<group>"; };
+		041E01092B2FF1F500BC7A21 /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		041E010B2B2FF51900BC7A21 /* ContinuationHolderClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuationHolderClass.swift; sourceTree = "<group>"; };
+		041E010E2B302CD400BC7A21 /* ImageRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRepository.swift; sourceTree = "<group>"; };
+		041E01222B314BC500BC7A21 /* ImageProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProtocol.swift; sourceTree = "<group>"; };
+		041E01242B33FB9C00BC7A21 /* Swift59Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift59Tests.swift; sourceTree = "<group>"; };
+		041E01532B4D29E900BC7A21 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		042266F12AFB460300BBDDF8 /* LogFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogFileManager.swift; sourceTree = "<group>"; };
+		042266F32AFB4F1500BBDDF8 /* CLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLogger.swift; sourceTree = "<group>"; };
+		042266F52AFB52DD00BBDDF8 /* LogEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogEntity.swift; sourceTree = "<group>"; };
+		042266F72AFB582300BBDDF8 /* EnumLogLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumLogLevel.swift; sourceTree = "<group>"; };
+		042266FF2B01E7FC00BBDDF8 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		0427B567296D26A700544586 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		0427B56B296D3C4D00544586 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		0427B56F296EB6F700544586 /* SQLiteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteRepository.swift; sourceTree = "<group>"; };
+		0427B571296ED23700544586 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		0427B57B2976570400544586 /* AppRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRoutes.swift; sourceTree = "<group>"; };
+		043F686A29306DD8002DB1AD /* CatCafeManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatCafeManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		043F686D29306DD8002DB1AD /* CatCafeManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCafeManagerApp.swift; sourceTree = "<group>"; };
+		043F686F29306DD8002DB1AD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		043F687129306DD9002DB1AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		043F687429306DD9002DB1AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		043F687A29306DD9002DB1AD /* CatCafeManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatCafeManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		043F687E29306DD9002DB1AD /* CatCafeServicesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCafeServicesTests.swift; sourceTree = "<group>"; };
+		043F68AB29308D95002DB1AD /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		043F68AF2930B10D002DB1AD /* AppFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFactory.swift; sourceTree = "<group>"; };
+		043F68B12935BCE2002DB1AD /* BasicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicModel.swift; sourceTree = "<group>"; };
+		043F68B32935BD0F002DB1AD /* CatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatModel.swift; sourceTree = "<group>"; };
+		043F68B52935BD8E002DB1AD /* CafeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeModel.swift; sourceTree = "<group>"; };
+		043F68BA2935CEFA002DB1AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		043F68BC2935CF01002DB1AD /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		043F68C129385A63002DB1AD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		043F68C329385BC5002DB1AD /* CafeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeViewModel.swift; sourceTree = "<group>"; };
+		043F68C529385F81002DB1AD /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		043F68C7293EEC51002DB1AD /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		043F68CE293EF848002DB1AD /* MapPlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPlaceModel.swift; sourceTree = "<group>"; };
+		043F68E32940430E002DB1AD /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		043F68E529404E1B002DB1AD /* CustomMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMapView.swift; sourceTree = "<group>"; };
+		044165C92B69123E000D58BC /* CatListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatListViewModel.swift; sourceTree = "<group>"; };
+		044165D42B6A2920000D58BC /* CatAdoptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatAdoptView.swift; sourceTree = "<group>"; };
+		044165DC2B6D02DE000D58BC /* CatAdoptViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatAdoptViewModel.swift; sourceTree = "<group>"; };
+		044165DE2B7093C3000D58BC /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		044165E22B71DED9000D58BC /* MoneyHolderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyHolderViewModel.swift; sourceTree = "<group>"; };
+		044166062B79E09D000D58BC /* BoxWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxWrapper.swift; sourceTree = "<group>"; };
+		0450DDC22B8E0E7000652032 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		0450DDCF2B8F0D9200652032 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		0450DDD12B8F150200652032 /* HalfCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfCircleView.swift; sourceTree = "<group>"; };
+		0450DDF52BA05B8E00652032 /* CatCafeRepositoriesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCafeRepositoriesTests.swift; sourceTree = "<group>"; };
+		0450DDF72BA1796F00652032 /* CafeLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeLocationView.swift; sourceTree = "<group>"; };
+		049314032A2F145800A56283 /* CatCafeNimbleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCafeNimbleTest.swift; sourceTree = "<group>"; };
+		049314122A2F46B100A56283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		04995B3F29AC6DFA00AA15F9 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		04995B4129AC704300AA15F9 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		04995B4529B0832D00AA15F9 /* NetworkingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingProtocol.swift; sourceTree = "<group>"; };
+		04995B5429B0CCB600AA15F9 /* MockCatsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCatsApi.swift; sourceTree = "<group>"; };
+		04995B5629B0CE9E00AA15F9 /* MockBreedsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBreedsApi.swift; sourceTree = "<group>"; };
+		04BB391929B98A8E006564FE /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		04BB391B29B991C3006564FE /* CatRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatRepository.swift; sourceTree = "<group>"; };
+		04BB391D29B9AE2C006564FE /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		04BB393D29CC5AA8006564FE /* CatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatListView.swift; sourceTree = "<group>"; };
+		04BB393F29CC7C27006564FE /* CatListCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatListCardView.swift; sourceTree = "<group>"; };
+		04C9E0CC2AA85D7C00D2F6FE /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		04C9E0D02AA9E8ED00D2F6FE /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		04C9E0D22AA9F26100D2F6FE /* CollapsedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsedTextView.swift; sourceTree = "<group>"; };
+		04C9E0D42AA9F6DC00D2F6FE /* CustomTextEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextEditView.swift; sourceTree = "<group>"; };
+		04C9E0E22AAB4AD900D2F6FE /* CustomTextEditPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextEditPlaceholder.swift; sourceTree = "<group>"; };
+		04C9E0E42AAB4D7800D2F6FE /* CustomTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextEditor.swift; sourceTree = "<group>"; };
+		04C9E0E72AAEE35C00D2F6FE /* ArrayWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayWrapper.swift; sourceTree = "<group>"; };
+		04C9E0EA2AAEF74A00D2F6FE /* ArrayCoverWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayCoverWrapper.swift; sourceTree = "<group>"; };
+		04D24B472946DA4A00CEC308 /* CafeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeCardView.swift; sourceTree = "<group>"; };
+		04D24B492946DCEC00CEC308 /* CafeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeRepository.swift; sourceTree = "<group>"; };
+		04DE96962AC1664800FBB263 /* CustomHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHostingController.swift; sourceTree = "<group>"; };
+		04DE96982AC556F000FBB263 /* CustomControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomControllerRepresentable.swift; sourceTree = "<group>"; };
+		04E6BEA52A41863500764C6F /* CafeCardHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeCardHeaderView.swift; sourceTree = "<group>"; };
+		04E6BEA72A4186C900764C6F /* CafeCardInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeCardInfoView.swift; sourceTree = "<group>"; };
+		04E6BEAF2A41C6B700764C6F /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		04E6BEB12A41C74F00764C6F /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		04E6BEB32A41D5CE00764C6F /* RequestDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestDispatcher.swift; sourceTree = "<group>"; };
+		04E6BEB52A494C3800764C6F /* MapKitSearcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitSearcher.swift; sourceTree = "<group>"; };
+		04E6BEB72A49535A00764C6F /* MapKitSearcherTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitSearcherTest.swift; sourceTree = "<group>"; };
+		04F2799629E3D0710020AF33 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		04F5B76B29556F3300296DB8 /* CafeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeListView.swift; sourceTree = "<group>"; };
+		04F5B76E2955A2F400296DB8 /* CafeListCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeListCardView.swift; sourceTree = "<group>"; };
+		04F5B770295947B400296DB8 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		04F5B77229594AF500296DB8 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		04F5B77329595B8F00296DB8 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		04F5B77629595BF300296DB8 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		04F5B77929595E2D00296DB8 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		04F5B77B29595F7C00296DB8 /* Url.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Url.swift; sourceTree = "<group>"; };
+		04F5B77D2959603A00296DB8 /* URLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequest.swift; sourceTree = "<group>"; };
+		04F5B77F2959606000296DB8 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		04F5B7812959634700296DB8 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		04F5B7832959641F00296DB8 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		04F5B785295964C500296DB8 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043F686729306DD8002DB1AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043F68A7293072F9002DB1AD /* GRDB in Frameworks */,
+				043F68AA293075E0002DB1AD /* Swinject in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043F687729306DD9002DB1AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049314142A2F4AB600A56283 /* Quick in Frameworks */,
+				049314162A2F4AD000A56283 /* Nimble in Frameworks */,
+				04995B5029B0C50800AA15F9 /* GRDB in Frameworks */,
+				04995B5229B0C50C00AA15F9 /* Swinject in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040618462BC3A815009F3610 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				041E01092B2FF1F500BC7A21 /* CustomNavigationController.swift */,
+				04DE96962AC1664800FBB263 /* CustomHostingController.swift */,
+				04DE96982AC556F000FBB263 /* CustomControllerRepresentable.swift */,
+				040618472BC3A834009F3610 /* NavigationControllerProtocol.swift */,
+				041E010B2B2FF51900BC7A21 /* ContinuationHolderClass.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		040618492BC3B618009F3610 /* Barcode */ = {
+			isa = PBXGroup;
+			children = (
+				0406184A2BC3C40A009F3610 /* BarcodeScanerView.swift */,
+			);
+			path = Barcode;
+			sourceTree = "<group>";
+		};
+		0406184C2BC3C89E009F3610 /* ML */ = {
+			isa = PBXGroup;
+			children = (
+				0406184D2BC3C8BE009F3610 /* MlModelView.swift */,
+			);
+			path = ML;
+			sourceTree = "<group>";
+		};
+		0406185E2BC3F993009F3610 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				049314032A2F145800A56283 /* CatCafeNimbleTest.swift */,
+				04E6BEB72A49535A00764C6F /* MapKitSearcherTest.swift */,
+				041E01242B33FB9C00BC7A21 /* Swift59Tests.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		041E01212B314BAA00BC7A21 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				041E010E2B302CD400BC7A21 /* ImageRepository.swift */,
+				041E01222B314BC500BC7A21 /* ImageProtocol.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		042266F02AFA1F3900BBDDF8 /* CustomLogger */ = {
+			isa = PBXGroup;
+			children = (
+				042266F12AFB460300BBDDF8 /* LogFileManager.swift */,
+				042266F32AFB4F1500BBDDF8 /* CLogger.swift */,
+				042266F52AFB52DD00BBDDF8 /* LogEntity.swift */,
+				042266F72AFB582300BBDDF8 /* EnumLogLevel.swift */,
+			);
+			path = CustomLogger;
+			sourceTree = "<group>";
+		};
+		043F686129306DD8002DB1AD = {
+			isa = PBXGroup;
+			children = (
+				042266FF2B01E7FC00BBDDF8 /* .swiftlint.yml */,
+				043F686C29306DD8002DB1AD /* CatCafeManager */,
+				043F687D29306DD9002DB1AD /* CatCafeManagerTests */,
+				043F686B29306DD8002DB1AD /* Products */,
+				04995B4E29B0C50800AA15F9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		043F686B29306DD8002DB1AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043F686A29306DD8002DB1AD /* CatCafeManager.app */,
+				043F687A29306DD9002DB1AD /* CatCafeManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043F686C29306DD8002DB1AD /* CatCafeManager */ = {
+			isa = PBXGroup;
+			children = (
+				043F68A129307203002DB1AD /* Common */,
+				04A356102A94DC8B00E083BD /* Modules */,
+				049314122A2F46B100A56283 /* Info.plist */,
+				043F686D29306DD8002DB1AD /* CatCafeManagerApp.swift */,
+				043F687129306DD9002DB1AD /* Assets.xcassets */,
+				043F687329306DD9002DB1AD /* Preview Content */,
+				043F68BB2935CEFA002DB1AD /* Localizable.strings */,
+			);
+			path = CatCafeManager;
+			sourceTree = "<group>";
+		};
+		043F687329306DD9002DB1AD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				043F687429306DD9002DB1AD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		043F687D29306DD9002DB1AD /* CatCafeManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0406185E2BC3F993009F3610 /* Misc */,
+				04995B4729B0845D00AA15F9 /* Mocks */,
+				043F687E29306DD9002DB1AD /* CatCafeServicesTests.swift */,
+				0450DDF52BA05B8E00652032 /* CatCafeRepositoriesTests.swift */,
+				0406183B2BBA9433009F3610 /* CatCafeViewModelsTests.swift */,
+			);
+			path = CatCafeManagerTests;
+			sourceTree = "<group>";
+		};
+		043F68A129307203002DB1AD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				040618462BC3A815009F3610 /* Navigation */,
+				0406184C2BC3C89E009F3610 /* ML */,
+				042266F02AFA1F3900BBDDF8 /* CustomLogger */,
+				04A356142A94E39E00E083BD /* Model */,
+				04A356292A9C4E0000E083BD /* View */,
+				04F5B77829595E1900296DB8 /* Extensions */,
+				04E6BEA92A418B0000764C6F /* Services */,
+				043F68AB29308D95002DB1AD /* LocationManager.swift */,
+				043F68AF2930B10D002DB1AD /* AppFactory.swift */,
+				0427B571296ED23700544586 /* AppConstants.swift */,
+				0427B57B2976570400544586 /* AppRoutes.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		044165D32B69F1CF000D58BC /* CatAdopt */ = {
+			isa = PBXGroup;
+			children = (
+				044165D42B6A2920000D58BC /* CatAdoptView.swift */,
+			);
+			path = CatAdopt;
+			sourceTree = "<group>";
+		};
+		044165E02B71DE5D000D58BC /* MoneyHolder */ = {
+			isa = PBXGroup;
+			children = (
+				044165E12B71DE98000D58BC /* ViewModel */,
+			);
+			path = MoneyHolder;
+			sourceTree = "<group>";
+		};
+		044165E12B71DE98000D58BC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				044165E22B71DED9000D58BC /* MoneyHolderViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		04995B4729B0845D00AA15F9 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				04995B5429B0CCB600AA15F9 /* MockCatsApi.swift */,
+				04995B5629B0CE9E00AA15F9 /* MockBreedsApi.swift */,
+				0406185A2BC3F2C3009F3610 /* MockCatRepositopy.swift */,
+				0406185C2BC3F34F009F3610 /* MockNavigationController.swift */,
+				0406186B2BCE2716009F3610 /* MockCafeRepository.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		04995B4E29B0C50800AA15F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04A356102A94DC8B00E083BD /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				044165E02B71DE5D000D58BC /* MoneyHolder */,
+				04A356312A9C4EE800E083BD /* Camera */,
+				04A3562D2A9C4E8C00E083BD /* Main */,
+				04A356252A9C4C2600E083BD /* Cat */,
+				04A356152A94E3B600E083BD /* Cafe */,
+				04A356112A94DCEA00E083BD /* Map */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		04A356112A94DCEA00E083BD /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				04A356132A94E20000E083BD /* Model */,
+				04A356122A94DCF200E083BD /* View */,
+				04A3562C2A9C4E6D00E083BD /* ViewModel */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		04A356122A94DCF200E083BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				043F68C129385A63002DB1AD /* MapView.swift */,
+				043F68E529404E1B002DB1AD /* CustomMapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04A356132A94E20000E083BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				043F68CE293EF848002DB1AD /* MapPlaceModel.swift */,
+				04E6BEB52A494C3800764C6F /* MapKitSearcher.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04A356142A94E39E00E083BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				041E01212B314BAA00BC7A21 /* Image */,
+				043F68C7293EEC51002DB1AD /* Repository.swift */,
+				043F68B12935BCE2002DB1AD /* BasicModel.swift */,
+				0427B56F296EB6F700544586 /* SQLiteRepository.swift */,
+				04F2799629E3D0710020AF33 /* NetworkMonitor.swift */,
+				04C9E0E72AAEE35C00D2F6FE /* ArrayWrapper.swift */,
+				04C9E0EA2AAEF74A00D2F6FE /* ArrayCoverWrapper.swift */,
+				044166062B79E09D000D58BC /* BoxWrapper.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04A356152A94E3B600E083BD /* Cafe */ = {
+			isa = PBXGroup;
+			children = (
+				04A356162A94E3BF00E083BD /* Model */,
+				04A3562A2A9C4E2000E083BD /* View */,
+				04A356282A9C4C5200E083BD /* ViewModel */,
+			);
+			path = Cafe;
+			sourceTree = "<group>";
+		};
+		04A356162A94E3BF00E083BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04D24B492946DCEC00CEC308 /* CafeRepository.swift */,
+				043F68B52935BD8E002DB1AD /* CafeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04A356252A9C4C2600E083BD /* Cat */ = {
+			isa = PBXGroup;
+			children = (
+				04A356262A9C4C3300E083BD /* Model */,
+				04A356272A9C4C3A00E083BD /* View */,
+				04A3562B2A9C4E3100E083BD /* ViewModel */,
+			);
+			path = Cat;
+			sourceTree = "<group>";
+		};
+		04A356262A9C4C3300E083BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				043F68B32935BD0F002DB1AD /* CatModel.swift */,
+				04BB391B29B991C3006564FE /* CatRepository.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04A356272A9C4C3A00E083BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				044165D32B69F1CF000D58BC /* CatAdopt */,
+				04BB393F29CC7C27006564FE /* CatListCardView.swift */,
+				04BB393D29CC5AA8006564FE /* CatListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04A356282A9C4C5200E083BD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				043F68C329385BC5002DB1AD /* CafeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		04A356292A9C4E0000E083BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				040618492BC3B618009F3610 /* Barcode */,
+				04C9E0E12AAB4A9900D2F6FE /* CustomTextEditor */,
+				043F68C529385F81002DB1AD /* GridView.swift */,
+				04F5B77629595BF300296DB8 /* ImageView.swift */,
+				04F5B7832959641F00296DB8 /* LoadingView.swift */,
+				04995B4129AC704300AA15F9 /* TextFieldView.swift */,
+				04BB391929B98A8E006564FE /* GalleryView.swift */,
+				04C9E0D22AA9F26100D2F6FE /* CollapsedTextView.swift */,
+				044165DE2B7093C3000D58BC /* AlertView.swift */,
+				0450DDD12B8F150200652032 /* HalfCircleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04A3562A2A9C4E2000E083BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04E6BEA42A4185D900764C6F /* CafeCard */,
+				04F5B76E2955A2F400296DB8 /* CafeListCardView.swift */,
+				0450DDF72BA1796F00652032 /* CafeLocationView.swift */,
+				04F5B76B29556F3300296DB8 /* CafeListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04A3562B2A9C4E3100E083BD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				044165C92B69123E000D58BC /* CatListViewModel.swift */,
+				044165DC2B6D02DE000D58BC /* CatAdoptViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		04A3562C2A9C4E6D00E083BD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		04A3562D2A9C4E8C00E083BD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				04A356302A9C4EA100E083BD /* Model */,
+				04A3562F2A9C4E9B00E083BD /* View */,
+				04A3562E2A9C4E9300E083BD /* ViewModel */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		04A3562E2A9C4E9300E083BD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				04F5B7812959634700296DB8 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		04A3562F2A9C4E9B00E083BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				043F686F29306DD8002DB1AD /* MainView.swift */,
+				0450DDCF2B8F0D9200652032 /* TopView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04A356302A9C4EA100E083BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04A356312A9C4EE800E083BD /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				04A356322A9C4EF200E083BD /* View */,
+				04A356332A9C4EF700E083BD /* ViewModel */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		04A356322A9C4EF200E083BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0427B567296D26A700544586 /* CameraView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04A356332A9C4EF700E083BD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0427B56B296D3C4D00544586 /* CameraViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		04C9E0E12AAB4A9900D2F6FE /* CustomTextEditor */ = {
+			isa = PBXGroup;
+			children = (
+				04C9E0D42AA9F6DC00D2F6FE /* CustomTextEditView.swift */,
+				04C9E0E22AAB4AD900D2F6FE /* CustomTextEditPlaceholder.swift */,
+				04C9E0E42AAB4D7800D2F6FE /* CustomTextEditor.swift */,
+			);
+			path = CustomTextEditor;
+			sourceTree = "<group>";
+		};
+		04E6BEA42A4185D900764C6F /* CafeCard */ = {
+			isa = PBXGroup;
+			children = (
+				04D24B472946DA4A00CEC308 /* CafeCardView.swift */,
+				04E6BEA52A41863500764C6F /* CafeCardHeaderView.swift */,
+				04E6BEA72A4186C900764C6F /* CafeCardInfoView.swift */,
+			);
+			path = CafeCard;
+			sourceTree = "<group>";
+		};
+		04E6BEA92A418B0000764C6F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				04995B4529B0832D00AA15F9 /* NetworkingProtocol.swift */,
+				04BB391D29B9AE2C006564FE /* Page.swift */,
+				04E6BEAF2A41C6B700764C6F /* Service.swift */,
+				04E6BEB12A41C74F00764C6F /* RequestBuilder.swift */,
+				04E6BEB32A41D5CE00764C6F /* RequestDispatcher.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		04F5B77829595E1900296DB8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				043F68E32940430E002DB1AD /* Color.swift */,
+				04F5B770295947B400296DB8 /* Stack.swift */,
+				04F5B77329595B8F00296DB8 /* Image.swift */,
+				04F5B785295964C500296DB8 /* Font.swift */,
+				04F5B77929595E2D00296DB8 /* FileManager.swift */,
+				04F5B77B29595F7C00296DB8 /* Url.swift */,
+				04F5B77D2959603A00296DB8 /* URLRequest.swift */,
+				04F5B77F2959606000296DB8 /* Data.swift */,
+				04995B3F29AC6DFA00AA15F9 /* Bundle.swift */,
+				04C9E0CC2AA85D7C00D2F6FE /* Date.swift */,
+				04C9E0D02AA9E8ED00D2F6FE /* Enum.swift */,
+				041E01532B4D29E900BC7A21 /* View.swift */,
+				0450DDC22B8E0E7000652032 /* String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043F686929306DD8002DB1AD /* CatCafeManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043F688E29306DDA002DB1AD /* Build configuration list for PBXNativeTarget "CatCafeManager" */;
+			buildPhases = (
+				043F686629306DD8002DB1AD /* Sources */,
+				043F686729306DD8002DB1AD /* Frameworks */,
+				043F686829306DD8002DB1AD /* Resources */,
+				04A5805E2AF1238A00BC97E9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatCafeManager;
+			packageProductDependencies = (
+				043F68A6293072F9002DB1AD /* GRDB */,
+				043F68A9293075E0002DB1AD /* Swinject */,
+			);
+			productName = CatCafeManger;
+			productReference = 043F686A29306DD8002DB1AD /* CatCafeManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		043F687929306DD9002DB1AD /* CatCafeManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043F689129306DDA002DB1AD /* Build configuration list for PBXNativeTarget "CatCafeManagerTests" */;
+			buildPhases = (
+				043F687629306DD9002DB1AD /* Sources */,
+				043F687729306DD9002DB1AD /* Frameworks */,
+				043F687829306DD9002DB1AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04995B4D29B0C27800AA15F9 /* PBXTargetDependency */,
+			);
+			name = CatCafeManagerTests;
+			packageProductDependencies = (
+				04995B4F29B0C50800AA15F9 /* GRDB */,
+				04995B5129B0C50C00AA15F9 /* Swinject */,
+				049314132A2F4AB600A56283 /* Quick */,
+				049314152A2F4AD000A56283 /* Nimble */,
+			);
+			productName = CatCafeMangerTests;
+			productReference = 043F687A29306DD9002DB1AD /* CatCafeManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043F686229306DD8002DB1AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					043F686929306DD8002DB1AD = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					043F687929306DD9002DB1AD = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 043F686929306DD8002DB1AD;
+					};
+				};
+			};
+			buildConfigurationList = 043F686529306DD8002DB1AD /* Build configuration list for PBXProject "CatCafeManager" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+				ru,
+			);
+			mainGroup = 043F686129306DD8002DB1AD;
+			packageReferences = (
+				043F68A5293072F9002DB1AD /* XCRemoteSwiftPackageReference "GRDB.swift" */,
+				043F68A8293075E0002DB1AD /* XCRemoteSwiftPackageReference "Swinject" */,
+				049314082A2F15D700A56283 /* XCRemoteSwiftPackageReference "Quick" */,
+				0493140B2A2F1A5E00A56283 /* XCRemoteSwiftPackageReference "Nimble" */,
+			);
+			productRefGroup = 043F686B29306DD8002DB1AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043F686929306DD8002DB1AD /* CatCafeManager */,
+				043F687929306DD9002DB1AD /* CatCafeManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043F686829306DD8002DB1AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043F687529306DD9002DB1AD /* Preview Assets.xcassets in Resources */,
+				043F68B92935CEFA002DB1AD /* Localizable.strings in Resources */,
+				043F687229306DD9002DB1AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043F687829306DD9002DB1AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042267002B01E7FC00BBDDF8 /* .swiftlint.yml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04A5805E2AF1238A00BC97E9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043F686629306DD8002DB1AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0450DDF82BA1796F00652032 /* CafeLocationView.swift in Sources */,
+				04F5B77729595BF300296DB8 /* ImageView.swift in Sources */,
+				043F68B02930B10D002DB1AD /* AppFactory.swift in Sources */,
+				04E6BEB62A494C3800764C6F /* MapKitSearcher.swift in Sources */,
+				04C9E0EB2AAEF74A00D2F6FE /* ArrayCoverWrapper.swift in Sources */,
+				04995B4029AC6DFA00AA15F9 /* Bundle.swift in Sources */,
+				0406184B2BC3C40A009F3610 /* BarcodeScanerView.swift in Sources */,
+				0427B56C296D3C4D00544586 /* CameraViewModel.swift in Sources */,
+				043F68B42935BD0F002DB1AD /* CatModel.swift in Sources */,
+				044166072B79E09D000D58BC /* BoxWrapper.swift in Sources */,
+				04C9E0E32AAB4AD900D2F6FE /* CustomTextEditPlaceholder.swift in Sources */,
+				04C9E0D52AA9F6DC00D2F6FE /* CustomTextEditView.swift in Sources */,
+				04F5B77C29595F7C00296DB8 /* Url.swift in Sources */,
+				044165D52B6A2920000D58BC /* CatAdoptView.swift in Sources */,
+				04BB391E29B9AE2C006564FE /* Page.swift in Sources */,
+				043F68CF293EF848002DB1AD /* MapPlaceModel.swift in Sources */,
+				04BB391A29B98A8E006564FE /* GalleryView.swift in Sources */,
+				04F5B771295947B400296DB8 /* Stack.swift in Sources */,
+				04DE96972AC1664800FBB263 /* CustomHostingController.swift in Sources */,
+				04F5B76F2955A2F400296DB8 /* CafeListCardView.swift in Sources */,
+				044165DD2B6D02DE000D58BC /* CatAdoptViewModel.swift in Sources */,
+				043F68E629404E1B002DB1AD /* CustomMapView.swift in Sources */,
+				04C9E0E82AAEE35C00D2F6FE /* ArrayWrapper.swift in Sources */,
+				04BB391C29B991C3006564FE /* CatRepository.swift in Sources */,
+				04C9E0E52AAB4D7800D2F6FE /* CustomTextEditor.swift in Sources */,
+				04E6BEB02A41C6B700764C6F /* Service.swift in Sources */,
+				04F5B7822959634700296DB8 /* MainViewModel.swift in Sources */,
+				0427B570296EB6F700544586 /* SQLiteRepository.swift in Sources */,
+				04F5B786295964C500296DB8 /* Font.swift in Sources */,
+				04BB393E29CC5AA8006564FE /* CatListView.swift in Sources */,
+				044165DF2B7093C3000D58BC /* AlertView.swift in Sources */,
+				04E6BEA82A4186C900764C6F /* CafeCardInfoView.swift in Sources */,
+				043F68B22935BCE2002DB1AD /* BasicModel.swift in Sources */,
+				043F68B62935BD8E002DB1AD /* CafeModel.swift in Sources */,
+				04D24B4A2946DCEC00CEC308 /* CafeRepository.swift in Sources */,
+				04BB394029CC7C27006564FE /* CatListCardView.swift in Sources */,
+				042266F82AFB582300BBDDF8 /* EnumLogLevel.swift in Sources */,
+				041E01542B4D29E900BC7A21 /* View.swift in Sources */,
+				043F687029306DD8002DB1AD /* MainView.swift in Sources */,
+				0450DDC32B8E0E7000652032 /* String.swift in Sources */,
+				043F68C429385BC5002DB1AD /* CafeViewModel.swift in Sources */,
+				0427B568296D26A700544586 /* CameraView.swift in Sources */,
+				044165E32B71DED9000D58BC /* MoneyHolderViewModel.swift in Sources */,
+				043F686E29306DD8002DB1AD /* CatCafeManagerApp.swift in Sources */,
+				0427B572296ED23700544586 /* AppConstants.swift in Sources */,
+				04DE96992AC556F000FBB263 /* CustomControllerRepresentable.swift in Sources */,
+				041E010C2B2FF51900BC7A21 /* ContinuationHolderClass.swift in Sources */,
+				041E010F2B302CD400BC7A21 /* ImageRepository.swift in Sources */,
+				04F2799729E3D0710020AF33 /* NetworkMonitor.swift in Sources */,
+				042266F42AFB4F1500BBDDF8 /* CLogger.swift in Sources */,
+				044165CA2B69123E000D58BC /* CatListViewModel.swift in Sources */,
+				0450DDD02B8F0D9200652032 /* TopView.swift in Sources */,
+				04F5B76C29556F3300296DB8 /* CafeListView.swift in Sources */,
+				043F68AC29308D95002DB1AD /* LocationManager.swift in Sources */,
+				04F5B77A29595E2D00296DB8 /* FileManager.swift in Sources */,
+				04995B4229AC704300AA15F9 /* TextFieldView.swift in Sources */,
+				04F5B77E2959603A00296DB8 /* URLRequest.swift in Sources */,
+				04D24B482946DA4A00CEC308 /* CafeCardView.swift in Sources */,
+				043F68C229385A63002DB1AD /* MapView.swift in Sources */,
+				043F68E42940430E002DB1AD /* Color.swift in Sources */,
+				04F5B7842959641F00296DB8 /* LoadingView.swift in Sources */,
+				042266F22AFB460300BBDDF8 /* LogFileManager.swift in Sources */,
+				04C9E0CD2AA85D7C00D2F6FE /* Date.swift in Sources */,
+				041E010A2B2FF1F500BC7A21 /* CustomNavigationController.swift in Sources */,
+				04C9E0D32AA9F26100D2F6FE /* CollapsedTextView.swift in Sources */,
+				0406184E2BC3C8BE009F3610 /* MlModelView.swift in Sources */,
+				042266F62AFB52DD00BBDDF8 /* LogEntity.swift in Sources */,
+				043F68C629385F81002DB1AD /* GridView.swift in Sources */,
+				04995B4629B0832D00AA15F9 /* NetworkingProtocol.swift in Sources */,
+				04E6BEA62A41863500764C6F /* CafeCardHeaderView.swift in Sources */,
+				0450DDD22B8F150200652032 /* HalfCircleView.swift in Sources */,
+				04E6BEB22A41C74F00764C6F /* RequestBuilder.swift in Sources */,
+				04C9E0D12AA9E8ED00D2F6FE /* Enum.swift in Sources */,
+				040618482BC3A834009F3610 /* NavigationControllerProtocol.swift in Sources */,
+				0427B57C2976570400544586 /* AppRoutes.swift in Sources */,
+				041E01232B314BC500BC7A21 /* ImageProtocol.swift in Sources */,
+				04E6BEB42A41D5CE00764C6F /* RequestDispatcher.swift in Sources */,
+				04F5B7802959606000296DB8 /* Data.swift in Sources */,
+				04F5B77429595B8F00296DB8 /* Image.swift in Sources */,
+				043F68C8293EEC51002DB1AD /* Repository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043F687629306DD9002DB1AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0406183C2BBA9433009F3610 /* CatCafeViewModelsTests.swift in Sources */,
+				0406185D2BC3F34F009F3610 /* MockNavigationController.swift in Sources */,
+				04E6BEB82A49535A00764C6F /* MapKitSearcherTest.swift in Sources */,
+				04995B5729B0CE9E00AA15F9 /* MockBreedsApi.swift in Sources */,
+				04995B5529B0CCB600AA15F9 /* MockCatsApi.swift in Sources */,
+				0406185B2BC3F2C3009F3610 /* MockCatRepositopy.swift in Sources */,
+				0450DDF62BA05B8E00652032 /* CatCafeRepositoriesTests.swift in Sources */,
+				049314042A2F145800A56283 /* CatCafeNimbleTest.swift in Sources */,
+				0406186C2BCE2716009F3610 /* MockCafeRepository.swift in Sources */,
+				043F687F29306DD9002DB1AD /* CatCafeServicesTests.swift in Sources */,
+				041E01252B33FB9C00BC7A21 /* Swift59Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04995B4D29B0C27800AA15F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043F686929306DD8002DB1AD /* CatCafeManager */;
+			targetProxy = 04995B4C29B0C27800AA15F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		043F68BB2935CEFA002DB1AD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043F68BA2935CEFA002DB1AD /* en */,
+				043F68BC2935CF01002DB1AD /* fr */,
+				04F5B77229594AF500296DB8 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		043F688C29306DDA002DB1AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The Cat Cafe needs a photo";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "The Cat Cafe needs a photo";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The Cat Cafe needs a photo";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		043F688D29306DDA002DB1AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The Cat Cafe needs a photo";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "The Cat Cafe needs a photo";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The Cat Cafe needs a photo";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		043F688F29306DDA002DB1AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CatCafeManager/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CatCafeManager/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The Cat Cafe needs a photo";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to open new cafe";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to open new cafe";
+				INFOPLIST_KEY_NSLocationUsageDescription = "We need your location to open new cafe";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to open new cafe";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "The Cat Cafe needs a photo";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The Cat Cafe needs a photo";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitaliussch.CatCafeManger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		043F689029306DDA002DB1AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CatCafeManager/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CatCafeManager/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The Cat Cafe needs a photo";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to open new cafe";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to open new cafe";
+				INFOPLIST_KEY_NSLocationUsageDescription = "We need your location to open new cafe";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to open new cafe";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "The Cat Cafe needs a photo";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The Cat Cafe needs a photo";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitaliussch.CatCafeManger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		043F689229306DDA002DB1AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitaliussch.CatCafeMangerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatCafeManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CatCafeManager";
+			};
+			name = Debug;
+		};
+		043F689329306DDA002DB1AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitaliussch.CatCafeMangerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatCafeManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CatCafeManager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043F686529306DD8002DB1AD /* Build configuration list for PBXProject "CatCafeManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043F688C29306DDA002DB1AD /* Debug */,
+				043F688D29306DDA002DB1AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043F688E29306DDA002DB1AD /* Build configuration list for PBXNativeTarget "CatCafeManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043F688F29306DDA002DB1AD /* Debug */,
+				043F689029306DDA002DB1AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043F689129306DDA002DB1AD /* Build configuration list for PBXNativeTarget "CatCafeManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043F689229306DDA002DB1AD /* Debug */,
+				043F689329306DDA002DB1AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		043F68A5293072F9002DB1AD /* XCRemoteSwiftPackageReference "GRDB.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/GRDB.swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		043F68A8293075E0002DB1AD /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject";
+			requirement = {
+				branch = 2.8.1;
+				kind = branch;
+			};
+		};
+		049314082A2F15D700A56283 /* XCRemoteSwiftPackageReference "Quick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Quick.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		0493140B2A2F1A5E00A56283 /* XCRemoteSwiftPackageReference "Nimble" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Nimble.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		043F68A6293072F9002DB1AD /* GRDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 043F68A5293072F9002DB1AD /* XCRemoteSwiftPackageReference "GRDB.swift" */;
+			productName = GRDB;
+		};
+		043F68A9293075E0002DB1AD /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 043F68A8293075E0002DB1AD /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		049314132A2F4AB600A56283 /* Quick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 049314082A2F15D700A56283 /* XCRemoteSwiftPackageReference "Quick" */;
+			productName = Quick;
+		};
+		049314152A2F4AD000A56283 /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0493140B2A2F1A5E00A56283 /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
+		};
+		04995B4F29B0C50800AA15F9 /* GRDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 043F68A5293072F9002DB1AD /* XCRemoteSwiftPackageReference "GRDB.swift" */;
+			productName = GRDB;
+		};
+		04995B5129B0C50C00AA15F9 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 043F68A8293075E0002DB1AD /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 043F686229306DD8002DB1AD /* Project object */;
+}
