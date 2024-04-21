@@ -18,25 +18,25 @@ The following is implemented in this project:
 - DI with Swinjcet https://github.com/Swinject/Swinject
 
 ## Screenshots
-<br />_Main View_ <br />
-<img src = "https://github.com/VitaliusSch/SwiftUi-MVVM-Cafe-Manager-WithCatApi/blob/main/Screenshots/IMG_0004.PNG" width="213" height="466" />
-<img src = "https://github.com/VitaliusSch/SwiftUi-MVVM-Cafe-Manager-WithCatApi/blob/main/Screenshots/IMG_0005.PNG" width="213" height="466" />
+_Main View_ <br />
+<img src = "https://github.com/VitaliusSch/SwiftUi-MVVM-Cafe-Manager-WithCatApi/blob/main/Screenshots/IMG_0004.PNG" width="233" height="506" />
+<img src = "https://github.com/VitaliusSch/SwiftUi-MVVM-Cafe-Manager-WithCatApi/blob/main/Screenshots/IMG_0005.PNG" width="233" height="506" />
 
-<br />_CafeList View_ <br />
-<img src = "https://github.com/VitaliusSch/SwiftUi-MVVM-Cafe-Manager-WithCatApi/blob/main/Screenshots/IMG_0009.PNG" width="213" height="466" />
-<img src = "https://github.com/VitaliusSch/SwiftUi-MVVM-Cafe-Manager-WithCatApi/blob/main/Screenshots/IMG_0006.PNG" width="213" height="466" />
+_CafeList View_ <br />
+<img src = "https://github.com/VitaliusSch/SwiftUi-MVVM-Cafe-Manager-WithCatApi/blob/main/Screenshots/IMG_0009.PNG" width="233" height="506" />
+<img src = "https://github.com/VitaliusSch/SwiftUi-MVVM-Cafe-Manager-WithCatApi/blob/main/Screenshots/IMG_0006.PNG" width="233" height="506" />
 
-<br />_CafeDetails View and Asynchronous Alert_ <br />
-<img src = "https://github.com/VitaliusSch/SwiftUi-MVVM-Cafe-Manager-WithCatApi/blob/main/Screenshots/IMG_0007.PNG" width="213" height="466" />
-<img src = "https://github.com/VitaliusSch/SwiftUi-MVVM-Cafe-Manager-WithCatApi/blob/main/Screenshots/IMG_0014.PNG" width="213" height="466" />
+_CafeDetails View and Asynchronous Alert_ <br />
+<img src = "https://github.com/VitaliusSch/SwiftUi-MVVM-Cafe-Manager-WithCatApi/blob/main/Screenshots/IMG_0007.PNG" width="233" height="506" />
+<img src = "https://github.com/VitaliusSch/SwiftUi-MVVM-Cafe-Manager-WithCatApi/blob/main/Screenshots/IMG_0014.PNG" width="233" height="506" />
 
-<br />_FetchingList View_ <br />
-<img src = "https://github.com/VitaliusSch/SwiftUi-MVVM-Cafe-Manager-WithCatApi/blob/main/Screenshots/IMG_0010.PNG" width="213" height="466" />
-<img src = "https://github.com/VitaliusSch/SwiftUi-MVVM-Cafe-Manager-WithCatApi/blob/main/Screenshots/IMG_0011.PNG" width="213" height="466" />
-<img src = "https://github.com/VitaliusSch/SwiftUi-MVVM-Cafe-Manager-WithCatApi/blob/main/Screenshots/IMG_0012.PNG" width="213" height="466" />
+_FetchingList View_ <br />
+<img src = "https://github.com/VitaliusSch/SwiftUi-MVVM-Cafe-Manager-WithCatApi/blob/main/Screenshots/IMG_0010.PNG" width="233" height="506" />
+<img src = "https://github.com/VitaliusSch/SwiftUi-MVVM-Cafe-Manager-WithCatApi/blob/main/Screenshots/IMG_0011.PNG" width="233" height="506" />
+<img src = "https://github.com/VitaliusSch/SwiftUi-MVVM-Cafe-Manager-WithCatApi/blob/main/Screenshots/IMG_0012.PNG" width="233" height="506" />
 
 ## Asynchronous navigation
-<br />You need to wrap the module's main page in a CustomControllerRepresentable and add a new CustomNavigationController to it<br />
+You need to wrap the module's main page in a CustomControllerRepresentable and add a new CustomNavigationController to it<br />
 ```Swift
 @main
 struct CatCafeManagerApp: App {
