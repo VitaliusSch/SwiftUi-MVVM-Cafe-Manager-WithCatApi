@@ -44,12 +44,9 @@ _FetchingList View_ <br />
 		animated: true,
 		enableSwipeBack: true,
 		title: "",
-		titleHidden: false, 
+		titleHidden: true, 
 		defaultValue: CatModel.aNewCat
 	)
-	if selectedCat.isEmpty {
-		return
-	}
 }
 ```
 <br />Collback way: you can use asynchronous navigation in the view model as follows<br />
@@ -65,9 +62,6 @@ _FetchingList View_ <br />
 		),
 		animated: true
 	)
-	if selectedCat.isEmpty {
-		return
-	}
 }
 ```
 

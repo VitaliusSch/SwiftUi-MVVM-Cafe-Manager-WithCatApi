@@ -2,7 +2,7 @@
 //  ReturnValueViewModel.swift
 //  CatCafeManager
 //
-//  Created by Mac on 29.05.2024.
+//  Created by VitaliusSch on 29.05.2024.
 //
 
 import Foundation

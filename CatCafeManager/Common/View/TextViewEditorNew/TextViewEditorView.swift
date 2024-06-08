@@ -2,7 +2,7 @@
 //  TextViewEditorView.swift
 //  CatCafeManager
 //
-//  Created by Mac on 03.06.2024.
+//  Created by VitaliusSch on 03.06.2024.
 //
 
 import Foundation
