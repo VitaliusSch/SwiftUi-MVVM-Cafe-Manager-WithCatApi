@@ -36,23 +36,29 @@ _FetchingList View_ <br />
 <img src = "https://github.com/VitaliusSch/SwiftUi-MVVM-Cafe-Manager-WithCatApi/blob/main/Screenshots/IMG_0012.PNG" width="233" height="506" />
 
 ## Asynchronous navigation
-<br />Generic way: you can use asynchronous navigation in the view model as follows<br />
+You need to wrap the module's main page in a CustomControllerRepresentable and add a new CustomNavigationController to it<br />
 ```Swift
-@MainActor func adoptCat() async {
-	var selectedCat: CatModel = await navigation.pushViewGenericAsync(
-		view: CatAdoptView(),
-		animated: true,
-		enableSwipeBack: true,
-		title: "",
-		titleHidden: false, 
-		defaultValue: CatModel.aNewCat
-	)
-	if selectedCat.isEmpty {
-		return
-	}
+@main
+struct CatCafeManagerApp: App {
+    private var navigation: CustomNavigationController
+    init() {
+        // Init App, setUp DI
+        AppFactory.shared.setUp(customContainer: nil)
+        // Main navigation controller. You can add another navigation: just resolve CustomNavigationController with another name!
+        navigation = AppFactory.shared.resolve(CustomNavigationController.self, name: NavigationType.main.rawValue)
+    }
+    
+    var body: some Scene {
+        WindowGroup {
+            CustomControllerRepresentable(
+                nav: navigation,
+                rootView: MainView()
+            )
+        }
+    }
 }
 ```
-<br />Collback way: you can use asynchronous navigation in the view model as follows<br />
+<br />Next, you can use asynchronous navigation in the view model as follows<br />
 ```Swift
 @MainActor func adoptCat() async {
 	var selectedCat = CatModel.aNewCat

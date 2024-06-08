@@ -10,7 +10,7 @@ import XCTest
 import Swinject
 import GRDB
 
-final class CatCafeViewModelsTests: XCTestCase {
+final class CatCafeViewModelTests: XCTestCase {
     private let container = Container()
     private let sqLite = SQLiteRepository()
     private let navigation = MockNavigationController()

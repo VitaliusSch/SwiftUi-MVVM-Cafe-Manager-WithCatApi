@@ -10,7 +10,7 @@ import XCTest
 import Swinject
 
 /// Some Services tests
-final class CatCafeServicesTests: XCTestCase {
+final class CatCafeServiceTests: XCTestCase {
     private let container = Container()
     override func setUp() {
         container.register(Service.self) { _, route in Service(route: route, requestDispatcher: MockCatsApi()) }

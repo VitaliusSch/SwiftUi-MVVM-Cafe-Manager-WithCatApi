@@ -8,6 +8,16 @@
 import SwiftUI
 
 protocol NavigationControllerProtocol {
+    /// Pushing a view like a NavigationLink, but holds the streamContinuation. This is the async emulation
+    func pushViewGenericAsync<T>(
+        view: some View,
+        animated: Bool, // TODO: make default implementations: animated = true and others
+        enableSwipeBack: Bool,
+        title: String,
+        titleHidden: Bool,
+        defaultValue: T // TODO: make a push variant with a Result and a throws
+    ) async -> T
+    
     /// Pushing a view like a NavigationLink, but holds the CheckedContinuation. This is the async emulation
     func pushViewAsync(
         view: some View,

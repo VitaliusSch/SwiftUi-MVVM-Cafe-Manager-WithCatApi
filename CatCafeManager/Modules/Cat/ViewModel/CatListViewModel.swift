@@ -40,15 +40,13 @@ final class CatListViewModel: ObservableObject {
     @MainActor func adoptCat() async {
         UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
         // select a cat
-        var selectedCat = CatModel.aNewCat
-        await navigation.pushViewAsync(
-            view: CatAdoptView(
-                onCatSelect: { cat in
-                    selectedCat = cat
-                    self.navigation.popViewAsync()
-                }
-            ),
-            animated: true
+        var selectedCat: CatModel = await navigation.pushViewGenericAsync(
+            view: CatAdoptView(),
+            animated: true,
+            enableSwipeBack: true,
+            title: "",
+            titleHidden: false, 
+            defaultValue: CatModel.aNewCat
         )
         if selectedCat.isEmpty {
             return

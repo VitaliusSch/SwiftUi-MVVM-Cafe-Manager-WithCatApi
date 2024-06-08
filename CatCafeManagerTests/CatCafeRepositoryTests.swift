@@ -11,7 +11,7 @@ import Swinject
 import GRDB
 
 /// Some SQLight integration tests
-final class CatCafeRepositoriesTests: XCTestCase {
+final class CatCafeRepositoryTests: XCTestCase {
     private let container = Container()
     private let sqLite = SQLiteRepository()
     override func setUp() {

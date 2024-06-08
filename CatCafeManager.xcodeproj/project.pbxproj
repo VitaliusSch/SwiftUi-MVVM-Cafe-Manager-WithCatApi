@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0406183C2BBA9433009F3610 /* CatCafeViewModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406183B2BBA9433009F3610 /* CatCafeViewModelsTests.swift */; };
+		0406183C2BBA9433009F3610 /* CatCafeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406183B2BBA9433009F3610 /* CatCafeViewModelTests.swift */; };
 		040618482BC3A834009F3610 /* NavigationControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040618472BC3A834009F3610 /* NavigationControllerProtocol.swift */; };
 		0406184B2BC3C40A009F3610 /* BarcodeScanerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406184A2BC3C40A009F3610 /* BarcodeScanerView.swift */; };
 		0406184E2BC3C8BE009F3610 /* MlModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406184D2BC3C8BE009F3610 /* MlModelView.swift */; };
@@ -34,7 +34,7 @@
 		043F687029306DD8002DB1AD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F686F29306DD8002DB1AD /* MainView.swift */; };
 		043F687229306DD9002DB1AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043F687129306DD9002DB1AD /* Assets.xcassets */; };
 		043F687529306DD9002DB1AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043F687429306DD9002DB1AD /* Preview Assets.xcassets */; };
-		043F687F29306DD9002DB1AD /* CatCafeServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F687E29306DD9002DB1AD /* CatCafeServicesTests.swift */; };
+		043F687F29306DD9002DB1AD /* CatCafeServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F687E29306DD9002DB1AD /* CatCafeServiceTests.swift */; };
 		043F68A7293072F9002DB1AD /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = 043F68A6293072F9002DB1AD /* GRDB */; };
 		043F68AA293075E0002DB1AD /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 043F68A9293075E0002DB1AD /* Swinject */; };
 		043F68AC29308D95002DB1AD /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F68AB29308D95002DB1AD /* LocationManager.swift */; };
@@ -59,8 +59,14 @@
 		0450DDC32B8E0E7000652032 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450DDC22B8E0E7000652032 /* String.swift */; };
 		0450DDD02B8F0D9200652032 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450DDCF2B8F0D9200652032 /* TopView.swift */; };
 		0450DDD22B8F150200652032 /* HalfCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450DDD12B8F150200652032 /* HalfCircleView.swift */; };
-		0450DDF62BA05B8E00652032 /* CatCafeRepositoriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450DDF52BA05B8E00652032 /* CatCafeRepositoriesTests.swift */; };
+		0450DDF62BA05B8E00652032 /* CatCafeRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450DDF52BA05B8E00652032 /* CatCafeRepositoryTests.swift */; };
 		0450DDF82BA1796F00652032 /* CafeLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450DDF72BA1796F00652032 /* CafeLocationView.swift */; };
+		0485299A2C05989400C6CDEF /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048529992C05989400C6CDEF /* CustomError.swift */; };
+		0485299C2C0598F000C6CDEF /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0485299B2C0598F000C6CDEF /* NetworkError.swift */; };
+		0485299F2C07070800C6CDEF /* ReturnValueViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0485299E2C07070700C6CDEF /* ReturnValueViewModel.swift */; };
+		048529C32C0D80B900C6CDEF /* TextEditorViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048529C22C0D80B900C6CDEF /* TextEditorViewModifier.swift */; };
+		048529C82C0D85DA00C6CDEF /* TextViewEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048529C72C0D85DA00C6CDEF /* TextViewEditorView.swift */; };
+		048529CA2C0D8BAD00C6CDEF /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048529C92C0D8BAD00C6CDEF /* TextView.swift */; };
 		049314042A2F145800A56283 /* CatCafeNimbleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049314032A2F145800A56283 /* CatCafeNimbleTest.swift */; };
 		049314142A2F4AB600A56283 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 049314132A2F4AB600A56283 /* Quick */; };
 		049314162A2F4AD000A56283 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 049314152A2F4AD000A56283 /* Nimble */; };
@@ -98,7 +104,7 @@
 		04F2799729E3D0710020AF33 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F2799629E3D0710020AF33 /* NetworkMonitor.swift */; };
 		04F5B76C29556F3300296DB8 /* CafeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5B76B29556F3300296DB8 /* CafeListView.swift */; };
 		04F5B76F2955A2F400296DB8 /* CafeListCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5B76E2955A2F400296DB8 /* CafeListCardView.swift */; };
-		04F5B771295947B400296DB8 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5B770295947B400296DB8 /* Stack.swift */; };
+		04F5B771295947B400296DB8 /* StackModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5B770295947B400296DB8 /* StackModifier.swift */; };
 		04F5B77429595B8F00296DB8 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5B77329595B8F00296DB8 /* Image.swift */; };
 		04F5B77729595BF300296DB8 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5B77629595BF300296DB8 /* ImageView.swift */; };
 		04F5B77A29595E2D00296DB8 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5B77929595E2D00296DB8 /* FileManager.swift */; };
@@ -121,7 +127,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0406183B2BBA9433009F3610 /* CatCafeViewModelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCafeViewModelsTests.swift; sourceTree = "<group>"; };
+		0406183B2BBA9433009F3610 /* CatCafeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCafeViewModelTests.swift; sourceTree = "<group>"; };
 		040618472BC3A834009F3610 /* NavigationControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerProtocol.swift; sourceTree = "<group>"; };
 		0406184A2BC3C40A009F3610 /* BarcodeScanerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScanerView.swift; sourceTree = "<group>"; };
 		0406184D2BC3C8BE009F3610 /* MlModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MlModelView.swift; sourceTree = "<group>"; };
@@ -150,7 +156,7 @@
 		043F687129306DD9002DB1AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		043F687429306DD9002DB1AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		043F687A29306DD9002DB1AD /* CatCafeManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatCafeManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		043F687E29306DD9002DB1AD /* CatCafeServicesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCafeServicesTests.swift; sourceTree = "<group>"; };
+		043F687E29306DD9002DB1AD /* CatCafeServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCafeServiceTests.swift; sourceTree = "<group>"; };
 		043F68AB29308D95002DB1AD /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		043F68AF2930B10D002DB1AD /* AppFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFactory.swift; sourceTree = "<group>"; };
 		043F68B12935BCE2002DB1AD /* BasicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicModel.swift; sourceTree = "<group>"; };
@@ -174,8 +180,14 @@
 		0450DDC22B8E0E7000652032 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		0450DDCF2B8F0D9200652032 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
 		0450DDD12B8F150200652032 /* HalfCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfCircleView.swift; sourceTree = "<group>"; };
-		0450DDF52BA05B8E00652032 /* CatCafeRepositoriesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCafeRepositoriesTests.swift; sourceTree = "<group>"; };
+		0450DDF52BA05B8E00652032 /* CatCafeRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCafeRepositoryTests.swift; sourceTree = "<group>"; };
 		0450DDF72BA1796F00652032 /* CafeLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeLocationView.swift; sourceTree = "<group>"; };
+		048529992C05989400C6CDEF /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		0485299B2C0598F000C6CDEF /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		0485299E2C07070700C6CDEF /* ReturnValueViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnValueViewModel.swift; sourceTree = "<group>"; };
+		048529C22C0D80B900C6CDEF /* TextEditorViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorViewModifier.swift; sourceTree = "<group>"; };
+		048529C72C0D85DA00C6CDEF /* TextViewEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewEditorView.swift; sourceTree = "<group>"; };
+		048529C92C0D8BAD00C6CDEF /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		049314032A2F145800A56283 /* CatCafeNimbleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCafeNimbleTest.swift; sourceTree = "<group>"; };
 		049314122A2F46B100A56283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		04995B3F29AC6DFA00AA15F9 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
@@ -210,7 +222,7 @@
 		04F2799629E3D0710020AF33 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 		04F5B76B29556F3300296DB8 /* CafeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeListView.swift; sourceTree = "<group>"; };
 		04F5B76E2955A2F400296DB8 /* CafeListCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeListCardView.swift; sourceTree = "<group>"; };
-		04F5B770295947B400296DB8 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		04F5B770295947B400296DB8 /* StackModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackModifier.swift; sourceTree = "<group>"; };
 		04F5B77229594AF500296DB8 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		04F5B77329595B8F00296DB8 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		04F5B77629595BF300296DB8 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
@@ -352,9 +364,9 @@
 			children = (
 				0406185E2BC3F993009F3610 /* Misc */,
 				04995B4729B0845D00AA15F9 /* Mocks */,
-				043F687E29306DD9002DB1AD /* CatCafeServicesTests.swift */,
-				0450DDF52BA05B8E00652032 /* CatCafeRepositoriesTests.swift */,
-				0406183B2BBA9433009F3610 /* CatCafeViewModelsTests.swift */,
+				043F687E29306DD9002DB1AD /* CatCafeServiceTests.swift */,
+				0450DDF52BA05B8E00652032 /* CatCafeRepositoryTests.swift */,
+				0406183B2BBA9433009F3610 /* CatCafeViewModelTests.swift */,
 			);
 			path = CatCafeManagerTests;
 			sourceTree = "<group>";
@@ -362,6 +374,7 @@
 		043F68A129307203002DB1AD /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				0485299D2C0706F800C6CDEF /* ViewModel */,
 				040618462BC3A815009F3610 /* Navigation */,
 				0406184C2BC3C89E009F3610 /* ML */,
 				042266F02AFA1F3900BBDDF8 /* CustomLogger */,
@@ -399,6 +412,32 @@
 				044165E22B71DED9000D58BC /* MoneyHolderViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0485299D2C0706F800C6CDEF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0485299E2C07070700C6CDEF /* ReturnValueViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		048529C12C0D80A800C6CDEF /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				04F5B770295947B400296DB8 /* StackModifier.swift */,
+				048529C22C0D80B900C6CDEF /* TextEditorViewModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		048529C42C0D826200C6CDEF /* TextViewEditorNew */ = {
+			isa = PBXGroup;
+			children = (
+				048529C72C0D85DA00C6CDEF /* TextViewEditorView.swift */,
+				048529C92C0D8BAD00C6CDEF /* TextView.swift */,
+			);
+			path = TextViewEditorNew;
 			sourceTree = "<group>";
 		};
 		04995B4729B0845D00AA15F9 /* Mocks */ = {
@@ -464,6 +503,7 @@
 		04A356142A94E39E00E083BD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				048529992C05989400C6CDEF /* CustomError.swift */,
 				041E01212B314BAA00BC7A21 /* Image */,
 				043F68C7293EEC51002DB1AD /* Repository.swift */,
 				043F68B12935BCE2002DB1AD /* BasicModel.swift */,
@@ -535,6 +575,8 @@
 		04A356292A9C4E0000E083BD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				048529C42C0D826200C6CDEF /* TextViewEditorNew */,
+				048529C12C0D80A800C6CDEF /* Modifier */,
 				040618492BC3B618009F3610 /* Barcode */,
 				04C9E0E12AAB4A9900D2F6FE /* CustomTextEditor */,
 				043F68C529385F81002DB1AD /* GridView.swift */,
@@ -663,6 +705,7 @@
 				04E6BEAF2A41C6B700764C6F /* Service.swift */,
 				04E6BEB12A41C74F00764C6F /* RequestBuilder.swift */,
 				04E6BEB32A41D5CE00764C6F /* RequestDispatcher.swift */,
+				0485299B2C0598F000C6CDEF /* NetworkError.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -671,7 +714,6 @@
 			isa = PBXGroup;
 			children = (
 				043F68E32940430E002DB1AD /* Color.swift */,
-				04F5B770295947B400296DB8 /* Stack.swift */,
 				04F5B77329595B8F00296DB8 /* Image.swift */,
 				04F5B785295964C500296DB8 /* Font.swift */,
 				04F5B77929595E2D00296DB8 /* FileManager.swift */,
@@ -834,6 +876,7 @@
 				043F68B02930B10D002DB1AD /* AppFactory.swift in Sources */,
 				04E6BEB62A494C3800764C6F /* MapKitSearcher.swift in Sources */,
 				04C9E0EB2AAEF74A00D2F6FE /* ArrayCoverWrapper.swift in Sources */,
+				048529C82C0D85DA00C6CDEF /* TextViewEditorView.swift in Sources */,
 				04995B4029AC6DFA00AA15F9 /* Bundle.swift in Sources */,
 				0406184B2BC3C40A009F3610 /* BarcodeScanerView.swift in Sources */,
 				0427B56C296D3C4D00544586 /* CameraViewModel.swift in Sources */,
@@ -846,7 +889,8 @@
 				04BB391E29B9AE2C006564FE /* Page.swift in Sources */,
 				043F68CF293EF848002DB1AD /* MapPlaceModel.swift in Sources */,
 				04BB391A29B98A8E006564FE /* GalleryView.swift in Sources */,
-				04F5B771295947B400296DB8 /* Stack.swift in Sources */,
+				0485299C2C0598F000C6CDEF /* NetworkError.swift in Sources */,
+				04F5B771295947B400296DB8 /* StackModifier.swift in Sources */,
 				04DE96972AC1664800FBB263 /* CustomHostingController.swift in Sources */,
 				04F5B76F2955A2F400296DB8 /* CafeListCardView.swift in Sources */,
 				044165DD2B6D02DE000D58BC /* CatAdoptViewModel.swift in Sources */,
@@ -859,17 +903,20 @@
 				0427B570296EB6F700544586 /* SQLiteRepository.swift in Sources */,
 				04F5B786295964C500296DB8 /* Font.swift in Sources */,
 				04BB393E29CC5AA8006564FE /* CatListView.swift in Sources */,
+				0485299F2C07070800C6CDEF /* ReturnValueViewModel.swift in Sources */,
 				044165DF2B7093C3000D58BC /* AlertView.swift in Sources */,
 				04E6BEA82A4186C900764C6F /* CafeCardInfoView.swift in Sources */,
 				043F68B22935BCE2002DB1AD /* BasicModel.swift in Sources */,
 				043F68B62935BD8E002DB1AD /* CafeModel.swift in Sources */,
 				04D24B4A2946DCEC00CEC308 /* CafeRepository.swift in Sources */,
+				048529C32C0D80B900C6CDEF /* TextEditorViewModifier.swift in Sources */,
 				04BB394029CC7C27006564FE /* CatListCardView.swift in Sources */,
 				042266F82AFB582300BBDDF8 /* EnumLogLevel.swift in Sources */,
 				041E01542B4D29E900BC7A21 /* View.swift in Sources */,
 				043F687029306DD8002DB1AD /* MainView.swift in Sources */,
 				0450DDC32B8E0E7000652032 /* String.swift in Sources */,
 				043F68C429385BC5002DB1AD /* CafeViewModel.swift in Sources */,
+				0485299A2C05989400C6CDEF /* CustomError.swift in Sources */,
 				0427B568296D26A700544586 /* CameraView.swift in Sources */,
 				044165E32B71DED9000D58BC /* MoneyHolderViewModel.swift in Sources */,
 				043F686E29306DD8002DB1AD /* CatCafeManagerApp.swift in Sources */,
@@ -897,6 +944,7 @@
 				0406184E2BC3C8BE009F3610 /* MlModelView.swift in Sources */,
 				042266F62AFB52DD00BBDDF8 /* LogEntity.swift in Sources */,
 				043F68C629385F81002DB1AD /* GridView.swift in Sources */,
+				048529CA2C0D8BAD00C6CDEF /* TextView.swift in Sources */,
 				04995B4629B0832D00AA15F9 /* NetworkingProtocol.swift in Sources */,
 				04E6BEA62A41863500764C6F /* CafeCardHeaderView.swift in Sources */,
 				0450DDD22B8F150200652032 /* HalfCircleView.swift in Sources */,
@@ -916,16 +964,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0406183C2BBA9433009F3610 /* CatCafeViewModelsTests.swift in Sources */,
+				0406183C2BBA9433009F3610 /* CatCafeViewModelTests.swift in Sources */,
 				0406185D2BC3F34F009F3610 /* MockNavigationController.swift in Sources */,
 				04E6BEB82A49535A00764C6F /* MapKitSearcherTest.swift in Sources */,
 				04995B5729B0CE9E00AA15F9 /* MockBreedsApi.swift in Sources */,
 				04995B5529B0CCB600AA15F9 /* MockCatsApi.swift in Sources */,
 				0406185B2BC3F2C3009F3610 /* MockCatRepositopy.swift in Sources */,
-				0450DDF62BA05B8E00652032 /* CatCafeRepositoriesTests.swift in Sources */,
+				0450DDF62BA05B8E00652032 /* CatCafeRepositoryTests.swift in Sources */,
 				049314042A2F145800A56283 /* CatCafeNimbleTest.swift in Sources */,
 				0406186C2BCE2716009F3610 /* MockCafeRepository.swift in Sources */,
-				043F687F29306DD9002DB1AD /* CatCafeServicesTests.swift in Sources */,
+				043F687F29306DD9002DB1AD /* CatCafeServiceTests.swift in Sources */,
 				041E01252B33FB9C00BC7A21 /* Swift59Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

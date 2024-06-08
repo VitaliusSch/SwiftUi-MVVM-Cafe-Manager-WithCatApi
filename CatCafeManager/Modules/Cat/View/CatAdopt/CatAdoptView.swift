@@ -11,7 +11,7 @@ import SwiftUI
 /// A cats adopt view
 struct CatAdoptView: View {
     @StateObject var viewModel = AppFactory.shared.resolve(CatAdoptViewModel.self)
-    var onCatSelect: (CatModel) -> Void
+    @EnvironmentObject var returnViewModel: ReturnValueViewModel<CatModel>
     
     var body: some View {
         VStack {
@@ -20,7 +20,7 @@ struct CatAdoptView: View {
                     ForEach(viewModel.catList) { cat in
                         CatListCardView(cat: cat)
                             .onTapGesture {
-                                onCatSelect(cat)
+                                returnViewModel.checkAndContinue(value: cat)
                             }
                             .onAppear {
                                 Task { @MainActor in

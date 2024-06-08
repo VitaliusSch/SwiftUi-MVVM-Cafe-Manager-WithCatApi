@@ -34,6 +34,40 @@ final class CustomNavigationController: UINavigationController, NavigationContro
             )
         }
     }
+    /// Pushing a view like a NavigationLink, but holds the CheckedContinuation. This is the async emulation
+    /// - Parameters:
+    ///   - view: The view to display over the current view controller’s content
+    ///   - animated: Pass true to animate the presentation
+    func pushViewGenericAsync<T>(
+        view: some View,
+        animated: Bool = true,
+        enableSwipeBack: Bool = true,
+        title: String = "",
+        titleHidden: Bool = false,
+        defaultValue: T
+    ) async -> T {
+        var returnedValue: T = defaultValue
+        let returnedStream = AsyncStream<T> { continuation in
+            self.pushViewController(
+                GenericHostingController(
+                    view: view,
+                    navigationBarTitle: title,
+                    navigationBarHidden: titleHidden,
+                    enableSwipeBack: enableSwipeBack,
+                    streamContinuation: continuation,
+                    navigation: self
+                ),
+                animated: animated
+            )
+        }
+        
+        for await dd in returnedStream {
+            returnedValue = dd
+        }
+        
+        return returnedValue
+    }
+
     /// This method pops the top view controller and resumes the CheckedContinuation. This is the async emulation
     /// - Parameter animated: Set this value to true to animate the transition or the presentation
     func popViewAsync(animated: Bool = true) {
