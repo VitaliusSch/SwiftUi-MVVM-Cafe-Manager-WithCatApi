@@ -49,7 +49,7 @@ _FetchingList View_ <br />
 	)
 }
 ```
-<br />Collback way: you can use asynchronous navigation in the view model as follows<br />
+<br />Callback way: you can use asynchronous navigation in the view model as follows<br />
 ```Swift
 @MainActor func adoptCat() async {
 	var selectedCat = CatModel.aNewCat
